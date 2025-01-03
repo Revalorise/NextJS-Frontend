@@ -8,10 +8,13 @@ import {
 } from "@/components/ui/accordion"
 
 import AlertTab from "@/components/global_components/alert"
+import Header from "@/components/global_components/header"
 
 export default function Home() {
     return (
         <div className="md:container md:mx-auto pt-5">
+
+            <Header />
 
             <AlertTab />
 
